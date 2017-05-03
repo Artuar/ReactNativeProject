@@ -1,0 +1,17 @@
+<html>
+  <body>
+    <div id="sketch">
+      <canvas id="canvas" style='width: 100%; height: 95%'></canvas>
+    </div>
+
+    <script>
+        let canvas = document.getElementById("canvas"),
+            height = canvas.height,
+            width = canvas.width,
+            context = canvas.getContext("2d");
+        alert(height);
+        alert(width);
+        context.fillText('ൠ', width/2, height-50);
+    </script>
+  </body>
+</html>
